@@ -6,7 +6,7 @@ export default function FeaturedArticle({post}) {
 
   <Link to={`/blog/${post.slug}`} className="block">
 
-    <div className="grid gap-0 md:grid-cols-2">
+    <div className="grid grid-cols-1 gap-0 md:grid-cols-2">
 
       
       <div className="relative h-72 overflow-hidden md:h-100">

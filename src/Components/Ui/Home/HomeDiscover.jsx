@@ -17,7 +17,7 @@ export default function HomeDiscover() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           <Link
             className="group relative block p-6 rounded-2xl bg-base-card border border-base-border overflow-hidden hover:border-orange-500/30 transition-all duration-500 hover:-translate-y-1"
             to="/blog?category=إضاءة"
