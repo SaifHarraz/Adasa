@@ -50,7 +50,7 @@ export default function RelatedArticles({ currentPost }) {
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 src={relatedPost.image}
               />
-              <div className="absolute inset-0 bg-linear-to-t from-[#111111] to-transparent"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-base-soft to-transparent"></div>
               <span className="absolute top-4 right-4 px-3 py-1 bg-orange-500 text-white text-xs font-bold rounded-full">
                 {relatedPost.category}
               </span>
