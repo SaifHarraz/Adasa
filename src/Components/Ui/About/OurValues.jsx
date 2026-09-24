@@ -18,7 +18,7 @@ export default function OurValues() {
       </p>
     </div>
 
-    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
       {valuesData.map((item, id) => (
           <ValueItem key={id} value={item}/>
       ))}    
