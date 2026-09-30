@@ -9,11 +9,7 @@ import NoPageError from './Pages/NoPageError';
 import ErrorPage from './Pages/Error';
 import Privacy from './Pages/Privacy';
 import Terms from './Pages/Terms';
-
-
-
-function App() {
-  const routes=createBrowserRouter([
+const routes=createBrowserRouter([
      {
       path:"/",
       element:<Layout/>,
@@ -50,6 +46,10 @@ function App() {
     ]
      }  
   ])
+
+
+function App() {
+  
   return (
     <>
          <RouterProvider router={routes}/>
